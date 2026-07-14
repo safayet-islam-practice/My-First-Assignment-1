@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* navbar */
+.navbar-parent{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+    
+}
+.common-btn{
+    background-color: #1c4ed8;
+   padding: 12px;
+   padding-left: 28px;
+   padding-right: 28px;
+    border-radius: 6px;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    border:none
+}
