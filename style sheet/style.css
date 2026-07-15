@@ -85,7 +85,16 @@ a{
 /* hero section end */
 
 /* card section start */
-
+.secure-1{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.secure-para{
+    font-size: medium;
+    font-weight: 440;
+    color: rgb(109, 109, 109);
+}
 .card-name{
     font-size: 50px;
     font-weight: bold;
@@ -256,3 +265,109 @@ li{
    margin-top: 30px;
   
 }
+
+/* footer */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #dddddd;
+  padding: 60px 0 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1-fraction));
+  gap: 40px;
+}
+
+.footer-col h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.footer-col h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #3b82f6; 
+  height: 2px;
+  width: 40px;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-info i {
+  color: #3b82f6; 
+}
+
+.contact-info a {
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #3b82f6;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #2d2d2d;
+  font-size: 14px;
+  color: #888888;
+}
+
+.footer-bottom strong {
+  color: #ffffff;
+}
+/* footer section end */
